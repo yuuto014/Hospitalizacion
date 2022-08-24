@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7wB43KGQ/YY4bzgt6qWOxXo614hhBEJufujk0++yPAAbglu7BReGmk3g+XG0ViCj8fUeVJ7J8CAbyeTq8+vinA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yuuto\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
