@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\Hospitalizacion.Dominio.csproj",
+      "projectUniqueName": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\Hospitalizacion.Dominio.csproj",
       "projectName": "Hospitalizacion.Dominio",
-      "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\Hospitalizacion.Dominio.csproj",
+      "projectPath": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\Hospitalizacion.Dominio.csproj",
       "packagesPath": "C:\\Users\\Yuuto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\obj\\",
+      "outputPath": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yuuto\\AppData\\Roaming\\NuGet\\NuGet.Config"

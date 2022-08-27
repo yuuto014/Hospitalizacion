@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj": {}
+    "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj": {
+    "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj",
+        "projectUniqueName": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj",
         "projectName": "Hospitalizacion.Servicios",
-        "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj",
+        "projectPath": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\Hospitalizacion.Servicios.csproj",
         "packagesPath": "C:\\Users\\Yuuto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\obj\\",
+        "outputPath": "c:\\Users\\Yuuto\\Documents\\Code\\minTIC\\Hospitalizacion\\Hospitalizacion.Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yuuto\\AppData\\Roaming\\NuGet\\NuGet.Config"
