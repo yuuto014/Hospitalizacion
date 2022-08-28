@@ -1,5 +1,0 @@
-C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\Hospitalizacion.Dominio\obj\Debug\netstandard2.1\Hospitalizacion.Dominio.csproj.AssemblyReference.cache
-C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\Hospitalizacion.Dominio\obj\Debug\netstandard2.1\Hospitalizacion.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\Hospitalizacion.Dominio\obj\Debug\netstandard2.1\Hospitalizacion.Dominio.AssemblyInfoInputs.cache
-C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\Hospitalizacion.Dominio\obj\Debug\netstandard2.1\Hospitalizacion.Dominio.AssemblyInfo.cs
-C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\Hospitalizacion.Dominio\obj\Debug\netstandard2.1\Hospitalizacion.Dominio.csproj.CoreCompileInputs.cache
