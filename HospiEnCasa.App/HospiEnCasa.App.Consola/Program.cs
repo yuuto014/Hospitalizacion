@@ -10,13 +10,13 @@ namespace HospiEnCasa.App.Consola
         private static IRepositorioPaciente _repoPaciente= new RepositorioPaciente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World EF!");
+            // Console.WriteLine("Hello World EF!");
             //  AddPaciente();
             // Console.WriteLine("Buscando primer paciente...");
             // BuscarPaciente(1);
             // DeletePaciente(5);
             // UpdatePaciente(6);
-            GetAllPacientes();
+            // GetAllPacientes();
             //Console.WriteLine("Ya había un paciente Nicolay Perez, ahora agregaré Nicolay2 Perez2 y los demás datos iguales solo para probar que borrar paciente funciona...");
             //AddPaciente();
             //Console.WriteLine("Buscando segundo paciente...");
