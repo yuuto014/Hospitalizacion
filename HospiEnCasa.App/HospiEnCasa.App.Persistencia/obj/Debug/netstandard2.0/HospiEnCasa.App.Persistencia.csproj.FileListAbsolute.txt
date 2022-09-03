@@ -1,0 +1,4 @@
+C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\netstandard2.0\HospiEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\netstandard2.0\HospiEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\netstandard2.0\HospiEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\Users\Yuuto\Documents\Code\minTIC\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\netstandard2.0\HospiEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache

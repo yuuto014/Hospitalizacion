@@ -1,11 +1,6 @@
 using System;
-namespace HospiEnCasa.App.Dominio
-{
-    /// <summary>Class <c>Paciente</c>
-    /// Modela un Paciente que esta en atencion hospitalaria
-    /// </summary>   
-    public class Paciente : Persona
-    {
+namespace HospiEnCasa.App.Dominio{
+    public class Paciente : Persona{
         public string Direccion { get; set; }
         /// Coordenada de la dirección del Paciente
         public float Latitud { get; set; }
@@ -22,10 +17,7 @@ namespace HospiEnCasa.App.Dominio
         public Medico Medico { get; set; }
         /// Relacion entre Paciente y su Historia clínica
         public Historia Historia { get; set; }
-        /// <summary>
-        ///  Referencia a la lista de signos vitales de un Paciente 
-        /// </summary>
-        /// <value></value>
+
         public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
     }
 }
