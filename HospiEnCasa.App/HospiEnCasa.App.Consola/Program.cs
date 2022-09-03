@@ -11,9 +11,12 @@ namespace HospiEnCasa.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World EF!");
-            AddPaciente();
-            //Console.WriteLine("Buscando primer paciente...");
-            //BuscarPaciente(1);
+            //  AddPaciente();
+            // Console.WriteLine("Buscando primer paciente...");
+            // BuscarPaciente(1);
+            // DeletePaciente(5);
+            // UpdatePaciente(6);
+            GetAllPacientes();
             //Console.WriteLine("Ya había un paciente Nicolay Perez, ahora agregaré Nicolay2 Perez2 y los demás datos iguales solo para probar que borrar paciente funciona...");
             //AddPaciente();
             //Console.WriteLine("Buscando segundo paciente...");
@@ -33,17 +36,11 @@ namespace HospiEnCasa.App.Consola
         }
 
         private static void AddPaciente()
-        //private static Paciente AddPaciente()
         {
             var paciente = new Paciente
             {
-                
-                //Nombre = "Nicolay",
-                //Apellidos = "Perez",
-                //Nombre = "Nicolay2",
-                //Apellidos = "Perez2",
-                Nombre = "Nicolay3",
-                Apellidos = "Perez3",                
+                Nombre = "Nicolay",
+                Apellidos = "Perez",                
                 NumeroTelefono = "3001645",
                 Genero = Genero.Masculino,
                 Direccion = "Calle 4 No 7-4",
@@ -53,46 +50,25 @@ namespace HospiEnCasa.App.Consola
                 FechaNacimiento = new DateTime(1990, 04, 12)
             };
             _repoPaciente.AddPaciente(paciente);
-            //return paciente;
-          
+            Console.WriteLine("El paciente "+ paciente.Nombre+" se agrego");
         }
       
-
-        
-    
         private static void BuscarPaciente(int idPaciente)
         {
             var paciente = _repoPaciente.GetPaciente(idPaciente);
             //Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
-            string datos_paciente = "\nNombre:"+paciente.Nombre+"\nApellidos:"+paciente.Apellidos+"\nNumero de Telefono:"+paciente.NumeroTelefono+"\nGenero:"+paciente.Genero+"\nDireccion:"+paciente.Direccion+"\nUbicacion (Longitud;Latitud):("+paciente.Longitud+";"+paciente.Latitud+")"+"\nCiudad:"+paciente.Ciudad+"\nFecha de Nacimiento:"+paciente.FechaNacimiento;
-            Console.WriteLine(datos_paciente);          
-         //SIN RETORNO       
+            string datos_paciente = "\nNombre: "+paciente.Nombre+"\nApellidos: "+paciente.Apellidos+"\nNumero de Telefono: "+paciente.NumeroTelefono+"\nGenero: "+paciente.Genero+"\nDireccion: "+paciente.Direccion+"\nUbicacion (Longitud;Latitud): ("+paciente.Longitud+";"+paciente.Latitud+")"+"\nCiudad: "+paciente.Ciudad+"\nFecha de Nacimiento: "+paciente.FechaNacimiento;
+            Console.WriteLine(datos_paciente);      
         }
-
-        
-
-        /*
-        private static Paciente BuscarPaciente(int idPaciente)
-        {
-            var paciente = _repoPaciente.GetPaciente(idPaciente);
-            //Console.WriteLine(paciente.Nombre+" "+paciente.Apellidos);
-            string datos_paciente = "\nNombre:"+paciente.Nombre+"\nApellidos:"+paciente.Apellidos+"\nNumero de Telefono:"+paciente.NumeroTelefono+"\nGenero:"+paciente.Genero+"\nDireccion:"+paciente.Direccion+"\nUbicacion (Longitud;Latitud):("+paciente.Longitud+";"+paciente.Latitud+")"+"\nCiudad:"+paciente.Ciudad+"\nFecha de Nacimiento:"+paciente.FechaNacimiento;
-            Console.WriteLine(datos_paciente);          
-            return paciente;//CON RETORNO  
-        }
-        */
-
-      
 
         private static void DeletePaciente(int idPaciente)
-        {            
-            _repoPaciente.DeletePaciente(idPaciente);
-            Console.WriteLine("Paciente borrado!");           
-                
+        {        
+            string nombrePaciente = _repoPaciente.GetPaciente(idPaciente).Nombre;
+            Console.WriteLine("Borrando paciente "+ nombrePaciente +"...\n");     
+            _repoPaciente.DeletePaciente(idPaciente); 
+            Console.WriteLine("Paciente "+ nombrePaciente+ " borrado!");                  
         }
         
-       
-        //private static Paciente UpdatePaciente(int idPaciente)
         private static void UpdatePaciente(int idPaciente_original)
         {            
             //var paciente_actualizado = _repoPaciente.UpdatePaciente(paciente);
@@ -103,8 +79,8 @@ namespace HospiEnCasa.App.Consola
                 //Apellidos = "Perez",
                 //Nombre = "Nicolay2",
                 //Apellidos = "Perez2",
-                Nombre = "Nicolay5",
-                Apellidos = "Perez5",                
+                Nombre = "Nicolay6",
+                Apellidos = "Perez6",                
                 NumeroTelefono = "3001645",
                 Genero = Genero.Masculino,
                 Direccion = "Calle 4 No 7-4",
@@ -116,36 +92,18 @@ namespace HospiEnCasa.App.Consola
             _repoPaciente.UpdatePaciente(paciente_actualizado, idPaciente_original);
             //var paciente = _repoPaciente.UpdatePaciente(idPaciente);
 
-            Console.WriteLine("Paciente actualizado!");
+            Console.WriteLine("Paciente "+ paciente_actualizado.Nombre+" actualizado!");
             //return paciente_actualizado;           
                 
         }
-          //¡HASTA AQUÍ ME FUNCIONA! (FIN SEMANA 3)
       
         private static void GetAllPacientes()
         {
           var pacientes = _repoPaciente.GetAllPacientes();          
-          //for (int i=0;i<5;i++){
-          //paciente: Pacientes){
-          //    Console.WriteLine(pacientes[i].Nombre+" "+pacientes[i].Apellidos);         
-          Console.WriteLine(pacientes);   //PENDIENTE COMO HACER PARA MOSTRARLOS COMO UNA LISTA      
-          //}        
-            
-         //SIN RETORNO  
-          
+          Console.WriteLine("Lista de pacientes:\n");    
+          foreach(var paciente in pacientes){
+            Console.WriteLine(paciente.Id + " - " + paciente.Nombre);
+          }
         }
-
-        
-            
-            
-
-        /*ESTO VA PARA LAS SIGUIENTES SEMANAS
-        private static void AsignarMedico()
-        {
-            var medico = _repoPaciente.AsignarMedico(1,2);
-            Console.WriteLine(medico.Nombre+" "+medico.Apellidos);
-        }
-
-        */
     }
 }
